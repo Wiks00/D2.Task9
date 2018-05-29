@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{B413C97C-AA15-4770-B538-CC12F584EF3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeRe", "CodeRe", "{5C3A24D0-0A69-48BF-98D3-EC0E41E6FE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{230CC93B-1B15-4CC2-87D5-81FD44C99AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLib", "LogLib\LogLib.csproj", "{D4B1B52D-8F30-4953-BA56-5A220B394B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{02D47329-9188-4AC6-996A-0A938817ACA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{9B25BB33-89E9-4FC8-A6E0-3069293BF3B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLibForProxy", "LogLibForProxy\LogLibForProxy.csproj", "{8EFF88F7-60BC-43B5-A4B5-C0EDAC624DF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{230CC93B-1B15-4CC2-87D5-81FD44C99AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230CC93B-1B15-4CC2-87D5-81FD44C99AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230CC93B-1B15-4CC2-87D5-81FD44C99AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230CC93B-1B15-4CC2-87D5-81FD44C99AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B1B52D-8F30-4953-BA56-5A220B394B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B1B52D-8F30-4953-BA56-5A220B394B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B1B52D-8F30-4953-BA56-5A220B394B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B1B52D-8F30-4953-BA56-5A220B394B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D47329-9188-4AC6-996A-0A938817ACA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D47329-9188-4AC6-996A-0A938817ACA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D47329-9188-4AC6-996A-0A938817ACA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D47329-9188-4AC6-996A-0A938817ACA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B25BB33-89E9-4FC8-A6E0-3069293BF3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B25BB33-89E9-4FC8-A6E0-3069293BF3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B25BB33-89E9-4FC8-A6E0-3069293BF3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B25BB33-89E9-4FC8-A6E0-3069293BF3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFF88F7-60BC-43B5-A4B5-C0EDAC624DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFF88F7-60BC-43B5-A4B5-C0EDAC624DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFF88F7-60BC-43B5-A4B5-C0EDAC624DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFF88F7-60BC-43B5-A4B5-C0EDAC624DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{230CC93B-1B15-4CC2-87D5-81FD44C99AEA} = {5C3A24D0-0A69-48BF-98D3-EC0E41E6FE89}
+		{D4B1B52D-8F30-4953-BA56-5A220B394B08} = {5C3A24D0-0A69-48BF-98D3-EC0E41E6FE89}
+		{9B25BB33-89E9-4FC8-A6E0-3069293BF3B8} = {B413C97C-AA15-4770-B538-CC12F584EF3A}
+		{8EFF88F7-60BC-43B5-A4B5-C0EDAC624DF8} = {B413C97C-AA15-4770-B538-CC12F584EF3A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E18BEB8A-25CA-493B-A470-E0A77CDD4DC1}
+	EndGlobalSection
+EndGlobal

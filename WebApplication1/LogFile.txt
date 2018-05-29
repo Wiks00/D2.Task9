@@ -1,0 +1,11 @@
+2018-05-29 14:09:26.6699 Method .ctor executed with  and returned  
+2018-05-29 14:09:26.7269 Method Get executed with  and returned System.String[] 
+2018-05-29 14:10:19.1364 Method .ctor executed with  and returned  
+2018-05-29 14:16:05.2951 Method .ctor executed with  and returned null 
+2018-05-29 14:16:05.4190 Method Get executed with System.Int32  5 and returned "value" 
+2018-05-29 14:18:54.0231 Method .ctor executed with args:  and returned null 
+2018-05-29 14:19:38.4510 Method .ctor executed with args:  and returned null 
+2018-05-29 14:20:03.0541 Method .ctor executed with args:  and returned null 
+2018-05-29 14:20:15.1590 Method .ctor executed with args:  and returned null 
+2018-05-29 14:23:46.0750 Method .ctor executed with args:  and returned null 
+2018-05-29 14:23:46.1813 Method Post executed with args:  and throw Exception of type 'System.Exception' was thrown.
